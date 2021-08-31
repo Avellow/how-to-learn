@@ -221,6 +221,59 @@
           <li><a class="resources__link" href="https://polka.academy/" target="_blank"><img class="resources__logo" src="images/resources/resources-polka.svg" alt="логотип полка"></a></li>
         </ul>
       </section>
+
+      <section class="forms">
+        <div class="forms__container">
+          <form class="form">
+            <h3 class="form__heading">Предложите материал для публикации</h3>
+            <div class="form__main-container">
+              
+              <fieldset class="form__input-container">
+
+                <label class="form__label" for="username">Ваше имя</label>
+                <input type="text" class="form__item form__item_el_username" name="username" id="username" placeholder="Иван Иванов" required>
+
+                <label class="form__label" for="type-checker">Тип материала</label>
+                <select class="form__item form__item_el_type-checker" name="type-checker" id="type-checker" required>
+                  <option value="text">Text-material</option>
+                  <option value="video">Видео-материал</option>
+                  <option value="table">Таблица с карточками</option>
+                </select>
+
+                <label class="form__label" for="telnumber">Ваш моб. телефон</label>
+                <input type="tel" class="form__item form__item_el_telnumber" name="telnubmer" id="telnumber" placeholder="+7 (999) 999-99-99">
+
+                <label class="form__label" for="comment">Комментарий</label>
+                <textarea class="form__item form__item_el_comment" id="comment" name="comment" placeholder="Здесь будет ваш комментарий" required></textarea>
+
+              </fieldset>
+            </div>
+            <fieldset class="form__handlers">
+              <input type="submit" class="form__button">
+              <input type="reset" class="form__button">
+            </fieldset>
+          </form>
+          <form class="form">
+            <div class="form__main-container">
+              <h3 class="form__heading">Оставьте комментарий</h3>
+              <fieldset class="form__input-container">
+                <label class="form__label" for="username">Ваше имя</label>
+                <input type="text" class="form__item form__item_el_username" name="username" id="username" placeholder="Иван Иванов" required>
+                <label class="form__label" for="email">Ваш e-mail</label>
+                <input type="email" class="form__item form__item_el_email" name="email" id="email" placeholder="ivanov@domain.com" required>
+                <label class="form__label" for="telnumber">Ваше моб. телефон</label>
+                <input type="tel" class="form__item form__item_el_telnumber" name="telnubmer" id="telnumber" placeholder="+7 (999) 999-99-99">
+                <label class="form__label" for="comment">Комментарий</label>
+                <textarea class="form__item form__item_el_comment" id="comment" name="comment" placeholder="Здесь будет ваш комментарий" required></textarea>
+              </fieldset>
+            </div>
+            <fieldset class="form__handlers">
+              <input type="submit" class="form__button">
+              <input type="reset" class="form__button">
+            </fieldset>
+          </form>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
